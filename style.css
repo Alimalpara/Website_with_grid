@@ -52,10 +52,15 @@ img{
 .main-nav ul{
     display: grid;
     grid-gap: 2rem;
+    /* justify-items: stretch; */
     list-style: none;
     grid-template-columns: repeat(4,1fr);
+    /* grid-column: 1/5; */
+    
     padding: 0;
 }
+
+
 
 /* a inside main nav */
 .main-nav a{
